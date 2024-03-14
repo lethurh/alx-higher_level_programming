@@ -1,4 +1,5 @@
--- lists all shows in hbtn_0d_tvshows that have at least 1 genre linked
+-- use RIGTH JOIN
+-- Execute:cat 11-genre_id_all_shows.sql | mysql -hlocalhost -uroot -p 
 SELECT b.tittle, a.genre_id
 FROM tv_show_genres a
 RIGHT JOIN tv_shows b
