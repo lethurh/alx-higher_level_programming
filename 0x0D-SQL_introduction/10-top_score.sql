@@ -1,3 +1,2 @@
--- List by score
--- Execute: cat 10-top_score.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
-SELECT score, name FROM second_table ORDER BY score DESK;
+-- list students from the "second_table" by score in descending order
+SELECT score, name FROM second_table ORDER BY score DESC;
