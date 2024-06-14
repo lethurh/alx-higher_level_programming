@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """A module that defines a class named MyList"""
 
-
 class MyList(list):
     """A class named MyList
     Attributes:
